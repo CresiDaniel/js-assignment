@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About console </title>
+</head>
+<body bgcolor="olive" text="white">
+    <h1 ><u>Assignment2 of Day 3.</u></h1>
+    <p><pre>1.What is console?
+        ans=>A Web console is a tool which is mainly used to log information associated with a web page like:
+         network requests, javascript, security errors, warnings, CSS etc. 
+        It enables us to interact with a web page by executing javascript expression in the contents of the page.
+        
+2.Types of Console in javascript?
+        ans=>The console object provides us with several different methods, like :
+
+       /* log()
+        error()
+        warn()
+        time() and timeEnd()
+        table()*/
+    </pre></p>
+    <p><pre>3.Explanation of console  examples.
+    /* ans=> 
+        1) log():
+
+        console.log('abc');  //output=> abc
+        console.log(1);    //output=>=> 1
+        console.log(true);   //output=> true
+        console.log(null);  //output=> null
+        console.log(undefined);  //output=> undefined
+        console.log([1, 2, 3, 4]); // output=> Array (4)= [1,2,3,4]
+        console.log({a:1, b:2, c:3}); // output=> Object 1=[a:1,b:2,c:3]   */
+
+        2) console.error():
+
+        console.error('This is a simple error'); //output=> This is a simple error with a circle and a ! in it.
+
+        3) console.warn()
+
+        console.warn('This is a warning.');  //output=> This is a warning with a triangle with  ! in it.
+        
+        4) console time() and timeEnd():
+        
+        console.time('abc'); 
+        let fun =  function(){ 
+        console.log('fun is running'); 
+        } 
+        let fun2 = function(){ 
+        console.log('fun2 is running..'); 
+        } 
+        fun(); // calling fun(); 
+         fun2(); // calling fun2(); 
+        console.timeEnd('abc'); // output=> fun is running 
+                                            fun2 is running..
+                                           abc:1ms.
+
+        5) console table():
+
+        console.table({'a':1, 'b':2}); //output=> display details in tabular form.
+
+        ********************************************
+    </pre></p>
+    
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About var let and const in javavsript</title>
+</head>
+<body bgcolor="skyblue" text="black">
+    <h1><u>Assignment2 of Day 3.</u></h1>
+    <p><pre>1.Explain difference between var, let and const in javacript.</pre></p>
+    <p><pre>ans=>
+        1)var
+        The scope of a variable defined with the keyword “var” is limited to the “function” 
+        within which it is defined. If it is defined outside any function, 
+        the scope of the variable is global.var is “function scoped”.
+         /*
+        ex:var age=20;
+            console.log(age); number //output=>age= 10
+
+            var name="sai sir";
+            console.log(name);  string //output=>name=sai sir
+
+            var canfly=false;
+            console.log(canfly); boolean //output=>canfly=false
+
+            var languages=['hindi','english','maths']; 
+            console.log(languages);  array   //output=> the array displayed
+
+            var friends={
+                name:"vishal";
+                hobby:"coding";
+            }   
+            console.log(friends);    objects */
+
+        2)let
+        The scope of a variable defined with the keyword “let” or “const” is limited to the “block” defined
+         by curly braces i.e. {} .
+
+         /* ex:
+         {
+             let name="sandra";
+             console.log(name);
+         }//sandra  
+            
+         */
+
+        3)const
+        The scope of a variable defined with the keyword “const” is limited to the block defined
+         by curly braces.However if a variable is defined with keyword const, it cannot be reassigned.
+
+         /*ex:
+         const country="india";
+         console.log(country);// output=>india
+         */
+         **************************************************
+    </pre></p>
+</body>
+</html>
