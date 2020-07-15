@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String and Array</title>
+</head>
+<body bgcolor="skyblue" text="black">
+   /* <h2><u>Assignment 4</u></h2>
+    <h5>Explain with examples the reamining methods of string and array?</h5>*/
+    <p><pre>ans=>
+   <h2>1)String methods()-</h2>
+
+  1. <u>charAt(index) Method():</u>
+   ex:
+   <script>  
+    var str="javascript";  
+    document.write(str.charAt(2));  
+    </script>
+    o/p=>v
+
+    2.<u>concat(str) Method():</u>
+    ex:
+    <script>  
+        var s1="javascript ";  
+        var s2="concat example";  
+        var s3=s1.concat(s2);  
+        document.write(s3);  
+        </script>  
+        o/p=>javascript concat example
+
+    3.<u> indexOf(str) Method():</u>
+    ex:
+    <script>  
+        var s1="javascript from javatpoint indexof";  
+        var n=s1.indexOf("from");  
+        document.write(n);  
+        </script>  
+        o/p=>11
+
+    4.<u>lastIndexOf(str) Method():</u>
+     ex:
+     <script>  
+        var s1="javascript from javatpoint indexof";  
+        var n=s1.lastIndexOf("java");  
+        document.write(n);  
+        </script>  
+        o/p=>16
+
+    5.<u>trim() Method():</u>
+    ex:
+    <script>  
+        var s1="     javascript trim    ";  
+        var s2=s1.trim();  
+        document.write(s2);  
+        </script>  
+        o/p=>javascript trim
+
+    6.<u> slice(beginIndex, endIndex) Method():</u>
+     ex:
+     <script>  
+         var s1="abcdefgh";  
+         var s2=s1.slice(2,5);  
+        document.write(s2);  
+        </script>  
+        o/p=>cde
+        <h2>2)Array Methods()-</h2>
+    
+
+        1.join() method:
+        ex:
+        var fruits = ["Banana", "Orange","Apple", "Mango"];
+        document.getElementById("demo").innerHTML = fruits.join(" * ");
+        o/p=>Banana * Orange * Apple * Mango
+
+        2.pop():
+        ex:
+        var fruits = ["Banana", "Orange", "Apple", "Mango"];
+        .pop();              // Removes the last element ("Mango") from fruits
+        o/p=>Banana,Orange,Apple
+
+        3.push():
+        ex:
+        var fruits = ["Banana", "Orange", "Apple", "Mango"];
+        fruits.push("Kiwi");       //  Adds a new element ("Kiwi") to fruits    
+        o/p=>Banana,Orange,Apple,Kiwi
+
+        4.shift() method:
+        ex:
+        var fruits = ["Banana", "Orange", "Apple", "Mango"];
+        fruits.shift();            // Removes the first element "Banana" from fruits
+        o/p=>Orange,Apple,Mango
+
+        5.unshift() method:
+        ex:
+        var fruits = ["Banana", "Orange", "Apple", "Mango"];
+        fruits.unshift("Lemon");    // Adds a new element "Lemon" to fruits
+        o/p=>Lemon,Banana,Orange,Apple,Mango
+
+
+****************************************************
+    </pre>
+    </p>
+*/
+</body>
+</html>
